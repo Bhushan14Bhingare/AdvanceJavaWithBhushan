@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+        <form action ="dis" method = "post">
+		<table>
+		<tr>
+			<td>Name</td>
+			<td> <input type ="text" name = "tname" value="">
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Age</td>
+			<td> <input type ="text" name = "tage" >
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Gender</td>
+			<td> <input type ="radio" name = "gen" value="Male" checked="checked" /> Male
+			<input type ="radio" name = "gen" value="Female" checked="checked" /> Female
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Address</td>
+			<td> 
+				<textarea name ="taddress" rows="4" cols="20">enter address</textarea>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>MaritalStatus</td>
+			<td> <input type ="checkbox" name = "ms" value="Married" /> Married</td>
+			<td><input type ="checkbox"" name = "ms" value="single"  /> UnMarried
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Qualification</td>
+			<td> 
+				<select name ="qlft">
+				<option value="B.Tech"> Engineering </option>
+				<option value ="MBBS"> Medical </option>
+				<option value="B.A" > Arts</option>
+				
+				</select>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<td>Courses</td>
+			<td> 
+				<select name ="crs" size="3" multiple ="multiple">
+				<option value="Java"> Java </option>
+				<option value =",Net"> .Net </option>
+				<option value="Testing" > Testing</option>
+				
+				</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Hobbies</td>
+			<td>
+			<input type ="checkbox" name = "hb" value="Read" /> Reading
+			<input type ="checkbox" name = "hb" value="e-sports"  /> OnlineGaming
+			<input type ="checkbox" name = "hb" value="travel"  /> Traveling
+			</td>
+		</tr>
+		
+		<tr>
+		<td colspan="2">
+		<input type ="submit" value="submit">
+		<input type ="reset" value="cancel">	
+		</tr>		
+		</table>		
+		</form>
+</body>
+</html>

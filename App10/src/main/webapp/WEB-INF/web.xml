@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>App10</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  
+  <context-param>
+  <param-name>msg2</param-name>
+  <param-value>Java is Amazing</param-value>  
+  </context-param>
+  
+  <servlet>
+  <servlet-name>DisplayServlet</servlet-name>
+  <servlet-class>com.bhushan.pack01.DisplayServlet</servlet-class>
+  
+    <init-param>
+    <param-name>msg3</param-name>
+    <param-value>ServletContext vs ServletConfig</param-value>
+    </init-param>
+     </servlet>
+     
+     <servlet-mapping>
+     <servlet-name>DisplayServlet</servlet-name>
+    <url-pattern>/dis</url-pattern>
+     </servlet-mapping>
+</web-app>

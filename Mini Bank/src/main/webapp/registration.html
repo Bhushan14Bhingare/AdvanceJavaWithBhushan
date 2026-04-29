@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - Mini Bank</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #43e97b, #38f9d7);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .register-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 350px;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input-box {
+            margin-bottom: 15px;
+        }
+
+        .input-box label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: #28a745;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #218838;
+        }
+
+        .link {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="register-box">
+    <h2>Create Account</h2>
+
+    <form action="#">
+
+        <div class="input-box">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="input-box">
+            <label>Email</label>
+            <input type="email" placeholder="Enter email" required>
+        </div>
+
+        <div class="input-box">
+            <label>Password</label>
+            <input type="password" placeholder="Enter password" required>
+        </div>
+
+        <div class="input-box">
+            <label>Confirm Password</label>
+            <input type="password" placeholder="Confirm password" required>
+        </div>
+
+        <button class="btn">Register</button>
+    </form>
+
+    <div class="link">
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+</div>
+
+</body>
+</html>

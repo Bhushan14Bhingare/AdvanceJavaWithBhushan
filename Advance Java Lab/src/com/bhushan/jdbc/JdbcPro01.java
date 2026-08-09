@@ -83,7 +83,7 @@ public class JdbcPro01 {
 	public static void main(String[] args) {
 	 
 		JdbcPro01 obj = new JdbcPro01();
-		   obj.InsertData();
+//		   obj.InsertData();
 	       obj.retriveData();
      
 	}
